@@ -7,7 +7,7 @@ from wtforms.widgets import TextArea
 from wtforms.validators import DataRequired, URL
 from flask_sqlalchemy import SQLAlchemy
 import os
-import gunicorn
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
