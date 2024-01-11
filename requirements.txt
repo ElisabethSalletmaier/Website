@@ -4,4 +4,5 @@ flask_sqlalchemy==3.0.5
 Flask_WTF==1.2.1
 WTForms==3.0.1
 SQLAlchemy==2.0.19
-Gunicorn==21.2.0
+gunicorn==21.2.0
+psycopg2-binary==2.9.6
