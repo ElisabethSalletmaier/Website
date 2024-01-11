@@ -1,10 +1,9 @@
 from flask_wtf import FlaskForm
-from flask import Flask, abort, render_template, redirect, url_for, flash, request
+from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap5
-from flask_ckeditor import CKEditor
 from wtforms import StringField, TextAreaField, SubmitField
 from wtforms.widgets import TextArea
-from wtforms.validators import DataRequired, URL
+from wtforms.validators import DataRequired
 from flask_sqlalchemy import SQLAlchemy
 import os
 
